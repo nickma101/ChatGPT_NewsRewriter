@@ -1,3 +1,8 @@
+"""
+This script queries ChatGPT to rewrite news articles.
+It also calculates readability statistics such that the original and rewritten versions can be compared in terms of text complexity.
+"""
+
 import openai, json, re
 from datetime import datetime, timedelta
 import readability
